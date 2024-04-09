@@ -9,13 +9,6 @@ hub = PrimeHub()
 for i in range(1000000000):
 
     hub.light.on(Color.RED)
-    wait(1000)
-
-    hub.light.off()
-    wait(1000)
-
-    hub.light.on(Color.MAGENTA)
-    wait(1000)
-    
-    hub.light.off()
-    wait(1000)
+    wait(200)
+    hub.light.on(Color.BLUE)
+    wait(200)
